@@ -1,0 +1,6 @@
+Debug
+Lib/libMonoZ_Lib.a
+*.zip
+.settings/language.settings.xml
+.settings/stm32cubeide.project.prefs
+MonoZ_Lib/.settings/language.settings.xml
