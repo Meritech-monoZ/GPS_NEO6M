@@ -1,6 +1,7 @@
-/** @file MZ_GPSSENSOR.h
- * @date July 11, 2022
- * @author Meritech
+/*
+ * MZ_GPS_Sensor.h
+ *  Created on: 11-July-2023
+ *      Author: Piyush
  */
 
 #ifndef MZ_GPSSENSOR_H_
@@ -17,11 +18,5 @@
  */
 mz_error_t gps_app_init(void);
 
-/**
- * @fn void lwm2m_event_process(void * event)
- * @brief Process LWM2M Event
- * @param event void
- */
-void lwm2m_event_process(void * event);
 
-#endif /*  MZ_GPSSENSOR_H_ */
+#endif /* MZ_GPSSENSOR_H_ */

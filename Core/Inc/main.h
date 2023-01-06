@@ -86,6 +86,19 @@ void Error_Handler(void);
 #define LED_GREEN_GPIO_Port GPIOB
 #define LED_RED_Pin GPIO_PIN_9
 #define LED_RED_GPIO_Port GPIOB
+
+#define DELAY_10MS						10
+#define DELAY_100MS						100
+
+#define FLAG_SET						1
+#define FLAG_CLEAR						0
+
+#define SET								1
+#define CLEAR							0
+
+#define INIT_0    						0
+#define FLOAT_0    						0.0
+
 /* USER CODE BEGIN Private defines */
 
 /* USER CODE END Private defines */

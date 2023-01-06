@@ -34,20 +34,4 @@
 #define MZI_LPUART1	(MZ_ENABLE)
 #endif //(MZ_LPUART1 == MZ_ENABLE)
 
-#if(MZ_I2C1 == MZ_ENABLE)
-#define MZI_I2C1		(MZ_ENABLE)
-#endif //(MZ_I2C1 == MZ_ENABLE)
-
-#if(MZ_I2C2 == MZ_ENABLE)
-#define MZI_I2C2		(MZ_ENABLE)
-#endif //(MZ_I2C2 == MZ_ENABLE)
-
-#if(MZ_I2C3 == MZ_ENABLE)
-#define MZI_I2C3		(MZ_ENABLE)
-#endif //(MZ_I2C3 == MZ_ENABLE)
-
-#if(MZ_I2C4 == MZ_ENABLE)
-#define MZI_I2C4		(MZ_DISABLE)
-#endif //(MZ_I2C4 == MZ_ENABLE)
-
 #endif /* INC_MZ_TOOL_GEN_H_ */
